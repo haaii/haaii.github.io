@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+     <meta charset="UTF-8">
+     <title>Hai | Pajarnya Kamu</title>
+</head>
+<body>
+    <h3>Hai Sayangnya Akuuu</h3>
+    <img src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fmedia.giphy.com%2Fmedia%2FKHnrhCtOXCAow%2Fgiphy.gif&f=1&nofb=1">
+    <h3>Kamu sayang gaa sama akuu???</h3>
+    <button id='btn_iya' onclick='alert("Aku sayang kamu jugaaa I <3 U")'>Iya Sayang</button>&nbsp;
+    <button id='btn_gk' onclick='gk(this)' style='position: absolute'>gk</button>
+</body>
+    <script>
+    function gk(id){
+            var iya = document.getElementById('btn_iya');
+            var i = Math.floor(Math.random()*300)+1;
+            var j = Math.floor(Math.random()*100)+iya.offsetTop;
+            id.style.left = i+'px';
+            id.style.top = j+'px';
+        }
+    </script>
+</html>
